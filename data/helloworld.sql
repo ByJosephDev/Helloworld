@@ -38,9 +38,9 @@ select * from categoria;
 
 select * from producto;
 
-INSERT INTO `helloworld`.`empresa` (`id_empresa`, `nombre`, `descripcion`, `paginaweb`, `imagen`) VALUES ('1', 'Microsoft', 'Empresa fundada por bill Gates', 'https://www.microsoft.com/es-pe/', 'microsoft.png');
-INSERT INTO `helloworld`.`empresa` (`id_empresa`, `nombre`, `descripcion`, `paginaweb`, `imagen`) VALUES ('2', 'Nvidia', 'Empresa tecnologica', 'https://www.nvidia.com/es-la/', 'nvidia.png');
-INSERT INTO `helloworld`.`empresa` (`id_empresa`, `nombre`, `descripcion`, `paginaweb`, `imagen`) VALUES ('3', 'Logitechg', 'Empresa tecnologica', 'https://www.logitechg.com/es-es', 'logitechg.png');
+INSERT INTO `helloworld`.`empresa` (`id_empresa`, `nombre`, `descripcion`, `paginaweb`, `imagen`) VALUES ('1', 'Microsoft', 'Empresa fundada por bill Gates', 'https://www.microsoft.com/es-pe/', 'images/empresas/microsoft.png');
+INSERT INTO `helloworld`.`empresa` (`id_empresa`, `nombre`, `descripcion`, `paginaweb`, `imagen`) VALUES ('2', 'Nvidia', 'Empresa tecnologica', 'https://www.nvidia.com/es-la/', 'images/empresas/nvidia.png');
+INSERT INTO `helloworld`.`empresa` (`id_empresa`, `nombre`, `descripcion`, `paginaweb`, `imagen`) VALUES ('3', 'Logitechg', 'Empresa tecnologica', 'https://www.logitechg.com/es-es', 'images/empresas/logitechg.png');
 
 
 INSERT INTO `helloworld`.`categoria` (`id_categoria`, `nombre`, `imagen`) VALUES ('1', 'Mouse', 'images/categorias/mouse.png');
